@@ -63,6 +63,11 @@ with col1:
         help="Paste the complete URL of the GitHub Pull Request you want to analyze"
     )
 
+    st.info(
+    "Try it with an example! Paste this URL: https://github.com/Harshith-Sanisetty/test-pr-repo/pull/13\n\n"
+    "**Note:** Check the 'Post comments' box to see the full automated workflow in action on GitHub."
+)
+
     post_comments = st.checkbox(
         "🔄 Post comments directly to GitHub PR",
         help="When enabled, the AI agents will automatically post their review comments to the GitHub PR"
