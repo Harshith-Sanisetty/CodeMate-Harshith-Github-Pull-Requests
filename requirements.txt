@@ -1,0 +1,9 @@
+# requirements.txt
+
+streamlit
+python-dotenv
+requests
+langchain
+langchain-google-genai
+langgraph
+flask

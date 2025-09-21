@@ -1,0 +1,18 @@
+# Python-specific files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+
+# Environment variables
+.env
+
+# MacOS-specific files
+.DS_Store
+
+# IDE and Editor-specific files (VS Code)
+.vscode/
+
+# Streamlit-specific cache files
+streamlit_app_data/
